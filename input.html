@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お気に入り登録</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+</head>
+<body>
+  <header>
+    <h1>お気に入り地点の登録</h1>
+  </header>
+
+  <form id="favorite-form">
+    <input type="hidden" id="latitude" name="latitude">
+    <input type="hidden" id="longitude" name="longitude">
+    <label for="hashtag">ハッシュタグ:</label>
+    <input type="text" id="hashtag" name="hashtag">
+    <label for="comment">コメント:</label>
+    <textarea id="comment" name="comment"></textarea>
+    <button type="submit">登録</button>
+ </form>
+
+
+
+  <script src="input.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* 基本設定 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* ヘッダーのスタイル */
+  header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* 地図のスタイル */
+  #map {
+    width: 90%;
+    height: 500px; /* 高さを設定（適宜調整） */
+    margin: 0 auto; /* 中央寄せ */
+    border: 1px solid #ddd; /* 軽い境界線を追加 */
+  }
+  
+  /* レスポンシブ設定 */
+  @media (max-width: 768px) {
+    #map {
+      width: 100%;
+      height: 300px; /* スマホなどの小さい画面では高さを調整 */
+    }
+  }
+  
+
+
+
+  /* index全体 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* フォントを変更 */
+  background-color: #f4f4f4; /* 背景色を変更 */
+}
+
+header {
+  background-color: #333; /* ヘッダーの背景色を変更 */
+  color: #fff; /* ヘッダーの文字色を変更 */
+  padding: 1rem;
+  text-align: center;
+}
+
+#map {
+  width: 90%;
+  height: 500px;
+  margin: 20px auto; /* 上下左右にマージンを追加 */
+  border: none; /* 枠線を削除 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加 */
+}
+
+#favorite-list {
+  width: 90%;
+  margin: 20px auto; /* 上下左右にマージンを追加 */
+  padding: 1rem;
+  background-color: #fff; /* 背景色を変更 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加 */
+  border-radius: 5px; /* 角を丸くする */
+}
+
+#favorite-list h2 {
+  margin-top: 0; /* 上マージンを削除 */
+}
+
+/* レスポンシブ設定 */
+@media (max-width: 768px) {
+  #map {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* リストの枠*/
+
+#favorite-items li {
+  list-style: none; /* リストの点を削除 */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd; /* 枠線を追加 */
+  border-radius: 5px; /* 角を丸くする */
+  background-color: #f9f9f9; /* 背景色を変更 */
+}
+
+.delete-button {
+  background-color: #f44336; /* 削除ボタンの背景色を変更 */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right; /* ボタンを右に寄せる */
+}
+
+
+
+
+/* input全体 */
+
+
+/* input.html のスタイル */
+#favorite-form {
+  width: 90%;
+  margin: 20px auto;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#favorite-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#favorite-form input[type="text"],
+#favorite-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#favorite-form button[type="submit"] {
+  background-color: #4CAF50; /* 登録ボタンの背景色を変更 */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
